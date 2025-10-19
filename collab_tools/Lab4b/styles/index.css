@@ -1,0 +1,22 @@
+h1{
+    color:rgb(38, 255, 0);
+}
+p{
+    color:red;
+}
+body{
+    background-color: blueviolet;
+    display: inline-block;
+    animation: bounce 0.1s infinite ease-in-out; 
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0); /* Start and end at original position */
+  }
+  50% {
+    transform: translateY(-30px); /* Move upwards at the midpoint */
+  }
+  100%{
+    transform: translateX(-50px);
+  }
+}
